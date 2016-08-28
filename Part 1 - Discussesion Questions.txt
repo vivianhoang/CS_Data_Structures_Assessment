@@ -1,0 +1,45 @@
+Part 1: Discussesion Questions
+
+
+RUNTIME
+
+1. What determines the workload of figuring out whether my box of animal crackers contains an elephant is the amount of crackers within my box.
+
+2. O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n ^ 2)
+O(2 ^ n)
+O(n!)
+
+
+STACKS AND QUEUES
+
+1.  a) Stack
+    b) Queue
+    c) Stack
+
+2.  a) The first person that gets seated in a restaurant gets served first while the last person that gets seated gets served last.
+    b) Waiting in line for the restroom.
+
+3.  a) When washing dishes, the dish that was placed last/on top is the first to be cleaned.
+    b) When eating pancakes, it makes more sense to eat the pancake on top rather than the pancake on the bottom.
+
+
+LINKED LISTS
+
+1. Nodes = Apple, Berry, Cherry. Each node contains data (string) and a box + arrow pointing to the next node. Each node contains strings (Apple contains "Apple", Berry contains "Berry", and Cherry contains "Cherry"). The head is set/pointing its arrow on the Apple node, hence the Apple node is the head. There is no set tail (there is not a tail present which can point to one of the nodes).
+
+2. Linked lists are items in a list that are not stored in memory and can only reference the next item in the sequence. They can be rearranged without having to move anything around. It can only be traversed from the beginning. A doubly linked list also does not have items that are stored in memory but they can reference previous and upcoming items in a sequence. It can be traversed from the beginning or end.
+
+3. It is faster to append to a linked list with a tail that is being tracked. If a user appends, we can go straight to the tail and change the tail so that it is pointing to the new appended item. If there is no tail, we would have to traverse through the whole list. Depending on the workload, this can be a long process.
+
+
+TREES
+
+1. Food > Italian > Indian > Mexican > Lasagna > Pizza > Tikka Masala > Saag > Burrito
+
+2. Food > Mexican > Enchilada > Tacos > Burrito > Indian > Saag > Tikka Masala > Italian > Pizza > Sicilian > New York-style > Chicago-style
+
+3. A binary tree is different from other trees has nodes that only contain one left and one right children. If balanced, everytime we do a search/make a choice our workload gets cut in half.
